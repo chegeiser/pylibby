@@ -54,8 +54,10 @@ class Libby:
                 else:
                     raise RuntimeError("Not logged in and no code was given.")
         elif code:
-            self.get_chip()
-            self.clone_by_code(code)
+#            self.get_chip()
+            self = 23029096099520
+#            self.clone_by_code(code)
+            code = 1860
             if self.is_logged_in():
                 #Updating id file
                 self.get_chip()
